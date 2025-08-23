@@ -1,8 +1,6 @@
+//  import thumb from "/public/images/thumb.jpeg"
 // import Image from "next/image";
-// import thumb from "/public/image/1.jpeg";
-
- 
-
+// import Image from "next/image";
 import Button from "../components/Button";
 
 const Mission = () => {
@@ -10,7 +8,14 @@ const Mission = () => {
     <main>
       <div className="mt-6">mission page</div>
       <div className="mt-5">
-        {/* <Image src={thumb} alt="Thumb image" /> */}
+      {/* <Image placeholder="blur"
+      src={thumb}
+      alt="Picture of the author"
+      // width={500} automatically provided
+      // height={500} automatically provided
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    /> */}
        <Button></Button>
       </div>
     </main>
